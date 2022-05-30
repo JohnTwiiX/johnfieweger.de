@@ -12,10 +12,11 @@ header {
     a {
         color: white;
         text-decoration: none;
-        margin-left: 32px;
+        margin-left: 5rem;
         font-weight: 500;
+        font-size: 1.5rem;
         &:hover {
-            color: rgba($color: #ffffff, $alpha: 0.8);
+            color: #2dfcd8;
         }
     }
 }
