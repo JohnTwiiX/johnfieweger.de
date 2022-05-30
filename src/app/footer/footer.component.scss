@@ -1,0 +1,32 @@
+.footer-container {
+    padding: 0 10rem 0 10rem;
+    height: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    a {
+        margin-right: 32px;
+        text-decoration: none;
+        color: black;
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.icons {
+    img {
+        height: 50px;
+        margin-left: 32px;
+        cursor: pointer;
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
