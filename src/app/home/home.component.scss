@@ -1,0 +1,115 @@
+.home-container {
+    padding: 15rem 10rem 0 10rem;
+    color: white;
+    font-size: 4rem;
+}
+
+.start-container {
+    height: calc(100vh - 15rem);
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        height: 20rem;
+        width: 20rem;
+        object-fit: cover;
+        border-radius: 100%;
+        object-position: top;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-contact {
+    height: 5rem;
+    width: 15rem;
+    border-color: rgb(0, 240, 160);
+    background: transparent;
+    color: white;
+    margin-top: 5rem;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    font-size: 1.5rem;
+}
+
+.btn-contact:hover {
+    background: rgb(0, 240, 160);
+    color: black;
+}
+
+.flyInLeft {
+    animation: flyInLeft .8s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes flyInLeft {
+    from {
+        transform: translate(-7.5rem);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.flyInRight {
+    animation: flyInRight .8s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes flyInRight {
+    0% {
+        transform: translate(7.5rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.arrow-wrap {
+    display: flex;
+    justify-content: center;
+    min-height: 3rem;
+}
+
+.arrow {
+    transform: translate(-50%, -50%);
+    margin-top: -2rem;
+    span {
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        border-bottom: 3px solid #2dfcd8;
+        border-right: 3px solid #2dfcd8;
+        transform: rotate(45deg);
+        margin: -0.6rem;
+        animation: animate 1.5s infinite;
+    }
+    span:nth-child(2) {
+        animation-delay: -.2s;
+    }
+    span:nth-child(3) {
+        animation-delay: -.4s;
+    }
+    @keyframes animate {
+        0% {
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px, -20px);
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            transform: rotate(45deg) translate(20px, 20px);
+        }
+    }
+}
