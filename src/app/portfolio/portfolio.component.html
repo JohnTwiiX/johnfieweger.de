@@ -1,0 +1,13 @@
+<div class="portfolio-container">
+    <h2>My Work</h2>
+    <div class="work-box">
+        <div *ngFor="let portfolio of portfolio" class="img-container">
+            <div>
+                <h3>{{ portfolio.name }}</h3> <br>
+                <p>{{ portfolio.engine }} - {{ portfolio.description }}</p>
+                <button>Try out</button>
+            </div>
+            <img src="assets/img/{{ portfolio.img }}">
+        </div>
+    </div>
+</div>
