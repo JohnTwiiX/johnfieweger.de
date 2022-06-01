@@ -1,0 +1,21 @@
+<div class="about-container">
+    <div>
+        <div class="profile">
+            <img src="assets/img/profile2.png">
+            <div>
+                <span>About me</span>
+                <p>"I'm a sport and car-tuning enthusiast and a front end developer who love programming"</p>
+            </div>
+        </div>
+        <div class="journey-container">
+            <div *ngFor="let journey of journey" class="journey">
+                <div>
+                    <img src="assets/img/Portfolio developer Akademie - Portfolio/{{ journey.img }}">
+                </div>
+                <span>{{ journey.title }}</span>
+                <P>{{ journey.description }}</P>
+            </div>
+        </div>
+    </div>
+
+</div>>
