@@ -9,12 +9,12 @@ export class AboutComponent implements OnInit {
 journey = [
   {
     'title': 'BEGINNING OF MY JOURNEY',
-    'description': 'In my journey, I began an apprenticeship as a process mechanic for plastics and rubber technology.',
+    'description': 'I began an apprenticeship as a process mechanic for plastics and rubber technology.',
     'img': 'walk-line.png'
   },
   {
     'title': 'FIRST EXPERIENCES',
-    'description': 'This training gave me my first experience with programming. This inspired me to deal more with the topic.',
+    'description': 'This training gave me my first experience with programming. IT inspired me to deal more with the topic.',
     'img': 'heart-line.png'
   },
   {
@@ -24,7 +24,7 @@ journey = [
   },
   {
     'title': 'NEW CHALLENGES',
-    'description': 'Now I love programming and will face any challenge that comes my way.',
+    'description': 'Now I love programming and will face any challenge that get in my way.',
     'img': 'flight-takeoff-line.png'
   }
 ]
