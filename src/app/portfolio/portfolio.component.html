@@ -5,7 +5,9 @@
             <div>
                 <h3>{{ portfolio.name }}</h3> <br>
                 <p>{{ portfolio.engine }} - {{ portfolio.description }}</p>
-                <button>Try out</button>
+                <a target="_blank" href="{{ portfolio.address }}">
+                    <button>Try out</button>
+                </a>
             </div>
             <img src="assets/img/{{ portfolio.img }}">
         </div>

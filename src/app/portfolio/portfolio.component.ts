@@ -11,31 +11,36 @@ export class PortfolioComponent implements OnInit {
       'name': 'El Pollo Loco',
       'img': 'elpolloloco.png',
       'description': 'based jump and run game (OOP)',
-      'engine': 'Java Script'
+      'engine': 'Java Script',
+      'address': 'http://john-fieweger.developerakademie.net/ElPolloLoco-V2/index.html'
     },
     {
       'name': 'Join',
       'img': 'join.png',
       'description': 'simple Kanban-Board (Group Project)',
-      'engine': 'Java Script'
+      'engine': 'Java Script',
+      'address': 'https://john-fieweger.developerakademie.net/prjKanban/index.html'
     },
     {
       'name': 'Pokedex',
       'img': 'pokedex.jpg',
       'description': 'A Pokedex with some Pokemon`s',
-      'engine': 'Java Script'
+      'engine': 'Java Script',
+      'address': 'http://john-fieweger.developerakademie.net/pokedex/pokedex.html'
     },
     {
       'name': 'Website',
       'img': 'website.png',
       'description': 'My Homepage',
-      'engine': 'Angular'
+      'engine': 'Angular',
+      'address': 'http://john-fieweger.developerakademie.net/johnfieweger/index.html'
     },
     {
       'name': 'Ring of Fire',
       'img': 'cards.jpg',
       'description': 'A little card drinking game',
-      'engine': 'Angular'
+      'engine': 'Angular',
+      'address': ''
     },
   ]
 
