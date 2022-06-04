@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +12,8 @@ export class AppComponent {
 
   constructor(public router: Router){}
 
+  ngOnInit() {
+    AOS.init();
+  }
 
 }
