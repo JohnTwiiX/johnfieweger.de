@@ -13,7 +13,8 @@ skillImg = ['', '', '', '', '', '', '', '', ''];
 skill= [
   {
     'name': 'Java Script',
-    'img': 'java script'
+    'img': 'java script',
+    'animation': 'data-aos="fade-right"'
   },
   {
     'name': 'Angular',

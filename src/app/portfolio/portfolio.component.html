@@ -1,7 +1,7 @@
 <div id="portfolio" class="portfolio-container">
     <h2>My Work</h2>
     <div class="work-box">
-        <div *ngFor="let portfolio of portfolio" class="img-container">
+        <div *ngFor="let portfolio of portfolio" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" class="img-container">
             <div>
                 <h3>{{ portfolio.name }}</h3> <br>
                 <p>{{ portfolio.engine }} - {{ portfolio.description }}</p>
