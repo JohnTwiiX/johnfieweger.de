@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-  portfolio = [
+  public buttons = ['All', 'HTML and CSS', 'Java Script', 'Angular'];
+  public portfolio = [
     {
       'name': 'El Pollo Loco',
       'img': 'elpolloloco.png',
@@ -29,6 +30,13 @@ export class PortfolioComponent implements OnInit {
       'address': 'http://john-fieweger.developerakademie.net/pokedex/pokedex.html'
     },
     {
+      'name': 'Foodster',
+      'img': 'foodster.jpg',
+      'description': 'small copy of Lieferando',
+      'engine': 'HTML and CSS',
+      'address': 'http://john-fieweger.developerakademie.net/Lieferando/index.html'
+    },
+    {
       'name': 'Website',
       'img': 'website.png',
       'description': 'My Homepage',
@@ -42,11 +50,25 @@ export class PortfolioComponent implements OnInit {
       'engine': 'Angular',
       'address': 'https://john-fieweger.developerakademie.net/ringoffire'
     },
-  ]
+  ];
+  filterInActive = true;
+
+  public currentName:string = 'All';
+
 
   constructor() { }
 
   ngOnInit(): void {
+    
+  }
+
+  active(id: any){
+    this.currentName = id;
+    this.filterInActive = false;
+    if(this.currentName == 'All'){
+      this.filterInActive = true;
+    }
+    console.log(this.currentName);
   }
 
 }

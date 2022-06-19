@@ -7,6 +7,26 @@
     background: black;
 }
 
+.btn-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    button {
+        margin-right: 8px;
+        width: 9rem;
+        height: 3rem;
+        background: transparent;
+        color: #fa2759;
+        border: 2px solid #fa2759;
+        cursor: pointer;
+        &:hover {
+            background: #fa2759;
+            color: black;
+        }
+    }
+}
+
 .portfolio-container {
     h2 {
         color: white;
@@ -59,4 +79,9 @@
             opacity: 1;
         }
     }
+}
+
+.activeBtn {
+    background: #fa2759 !important;
+    color: black !important;
 }
