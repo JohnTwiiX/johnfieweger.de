@@ -8,7 +8,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10rem 0 10rem;
+    // padding: 0 10rem 0 10rem;
+    background: black;
     a {
         color: white;
         text-decoration: none;
@@ -21,7 +22,12 @@ header {
     }
     img {
         height: 80px;
+        display: none;
     }
+}
+
+.container {
+    background: white;
 }
 
 .darkLinks {
@@ -36,4 +42,8 @@ header {
 .headerDark {
     background: white;
     box-shadow: 0 1px 3px 0 rgba($color: #000000, $alpha: 0.2);
+}
+
+.d-unset {
+    display: unset !important;
 }

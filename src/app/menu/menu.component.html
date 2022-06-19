@@ -1,7 +1,10 @@
-<header [class.headerDark]="darkMode">
-    <img *ngIf="!darkMode" routerLink="/" src="assets/img/logo.png">
-    <img *ngIf="darkMode" routerLink="/" src="assets/img/logo2.png">
-    <div [class.darkLinks]="darkMode">
+<header class="padding-lr" [class.headerDark]="router.url == '/imprint' && '/data-protection'">
+    <!--[class.headerDark]="darkMode"-->
+    <img [class.d-unset]="router.url !== '/imprint' && '/data-protection'" src="assets/img/logo.png">
+    <!--   -->
+    <img [class.d-unset]="router.url == '/imprint' && '/data-protection'" src="assets/img/logo2.png">
+    <div [class.darkLinks]="router.url == '/imprint' && '/data-protection'">
+        <!-- -->
         <a routerLink="/">HOME</a>
         <a href="#skills">SKILLS</a>
         <a href="#portfolio">PORTFOLIO</a>

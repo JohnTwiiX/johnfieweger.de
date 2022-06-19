@@ -1,5 +1,5 @@
-<app-menu [darkMode]="router.url !== '/'"></app-menu>
-<div [class.bg]="router.url == '/' || '/#'" [class.container]="router.url !== '/' || '/#'">
+<app-menu></app-menu>
+<div [class.bg]="router.url == '/'">
     <router-outlet></router-outlet>
 </div>
 <app-footer></app-footer>

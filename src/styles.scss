@@ -8,3 +8,39 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+.padding-lr {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+@media (max-width: 1000px) {
+    .padding-lr {
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .padding-lr {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .home-container {
+        font-size: 2rem !important;
+    }
+    .start-container {
+        img {
+            height: 10rem !important;
+            width: 10rem !important;
+        }
+    }
+    header {
+        a {
+            margin-left: 1rem !important;
+        }
+    }
+    .skills {
+        width: 90vw !important;
+    }
+}
