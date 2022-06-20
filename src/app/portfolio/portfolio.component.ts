@@ -48,7 +48,7 @@ export class PortfolioComponent implements OnInit {
       'img': 'cards.jpg',
       'description': 'A little card drinking game',
       'engine': 'Angular',
-      'address': 'https://john-fieweger.developerakademie.net/ringoffire'
+      'address': 'https://ring-of-fire-6724b.web.app'
     },
   ];
   filterInActive = true;
