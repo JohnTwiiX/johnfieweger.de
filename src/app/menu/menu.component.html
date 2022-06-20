@@ -1,10 +1,11 @@
-<header class="padding-lr" [class.headerDark]="router.url == '/imprint' && '/data-protection'">
+<header class="padding-lr" [class.headerDark]="router.url == '/data-protection' && '/imprint'">
     <!--[class.headerDark]="darkMode"-->
-    <img [class.d-unset]="router.url !== '/imprint' && '/data-protection'" src="assets/img/logo.png">
+    <img [class.d-unset]="router.url !== '/data-protection' && '/imprint'" src="assets/img/logo.png">
     <!--   -->
-    <img [class.d-unset]="router.url == '/imprint' && '/data-protection'" src="assets/img/logo2.png">
-    <div [class.darkLinks]="router.url == '/imprint' && '/data-protection'">
+    <img [class.d-unset]="router.url == '/data-protection' && '/imprint'" src="assets/img/logo2.png">
+    <div [class.darkLinks]="router.url == '/data-protection' && '/imprint'">
         <!-- -->
+
         <a routerLink="/">HOME</a>
         <a href="#skills">SKILLS</a>
         <a href="#portfolio">PORTFOLIO</a>
