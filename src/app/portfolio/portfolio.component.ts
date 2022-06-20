@@ -41,7 +41,7 @@ export class PortfolioComponent implements OnInit {
       'img': 'website.png',
       'description': 'My Homepage',
       'engine': 'Angular',
-      'address': 'http://john-fieweger.developerakademie.net/johnfieweger'
+      'address': 'https://john-fieweger.web.app'
     },
     {
       'name': 'Ring of Fire',

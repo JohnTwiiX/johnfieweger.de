@@ -20,6 +20,7 @@ import { MatMenuModule } from '@angular/material/menu';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +40,7 @@ import { MatMenuModule } from '@angular/material/menu';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

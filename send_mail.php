@@ -3,7 +3,7 @@
 ########### CONFIG ###############
 
 $recipient = 'john.fieweger98@gmail.com';
-$redirect = 'johnfieweger/index.html';
+$redirect = 'https://john-fieweger.web.app';
 
 ########### CONFIG END ###########
 
