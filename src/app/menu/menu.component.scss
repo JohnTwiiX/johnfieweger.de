@@ -27,7 +27,7 @@ header {
 }
 
 .container {
-    background: white;
+    background-color: white;
 }
 
 .darkLinks {
@@ -46,4 +46,27 @@ header {
 
 .d-unset {
     display: unset !important;
+}
+
+.btn-menu {
+    display: none;
+}
+
+.btnDark {
+    color: white;
+}
+
+.mat-menu-item {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    &:hover {
+        color: #fa2759;
+    }
+}
+
+::ng-deep .custom-menu {
+    background-color: black!important;
 }

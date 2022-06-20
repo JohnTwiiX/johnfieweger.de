@@ -74,6 +74,10 @@
             color: #fa2759;
             font-size: 1rem;
             cursor: pointer;
+            &:hover {
+                background: #fa2759;
+                color: black;
+            }
         }
         &:hover {
             opacity: 1;
