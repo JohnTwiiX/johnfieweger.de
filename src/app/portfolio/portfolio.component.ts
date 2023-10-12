@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-  public buttons = ['All', 'HTML and CSS', 'Java Script', 'Angular'];
+  public buttons = ['All', 'Java Script', 'Angular'];
   public portfolio = [
     {
       'name': 'El Pollo Loco',
@@ -20,7 +20,7 @@ export class PortfolioComponent implements OnInit {
       'img': 'join.png',
       'description': 'simple Kanban-Board (Group Project)',
       'engine': 'Java Script',
-      'address': 'https://john-fieweger.developerakademie.net/prjKanban/index.html'
+      'address': 'https://kanbanboard-john.web.app/'
     },
     {
       'name': 'Pokedex',
@@ -28,13 +28,6 @@ export class PortfolioComponent implements OnInit {
       'description': 'A Pokedex with some Pokemon`s',
       'engine': 'Java Script',
       'address': 'http://john-fieweger.developerakademie.net/pokedex/pokedex.html'
-    },
-    {
-      'name': 'Foodster',
-      'img': 'foodster.jpg',
-      'description': 'small copy of Lieferando',
-      'engine': 'HTML and CSS',
-      'address': 'http://john-fieweger.developerakademie.net/Lieferando/index.html'
     },
     {
       'name': 'Website',
@@ -53,19 +46,19 @@ export class PortfolioComponent implements OnInit {
   ];
   filterInActive = true;
 
-  public currentName:string = 'All';
+  public currentName: string = 'All';
 
 
   constructor() { }
 
   ngOnInit(): void {
-    
+
   }
 
-  active(id: any){
+  active(id: any) {
     this.currentName = id;
     this.filterInActive = false;
-    if(this.currentName == 'All'){
+    if (this.currentName == 'All') {
       this.filterInActive = true;
     }
     console.log(this.currentName);
