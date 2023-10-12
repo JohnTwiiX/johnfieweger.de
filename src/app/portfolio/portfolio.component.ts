@@ -13,7 +13,7 @@ export class PortfolioComponent implements OnInit {
       'img': 'elpolloloco.png',
       'description': 'based jump and run game (OOP)',
       'engine': 'Java Script',
-      'address': 'http://john-fieweger.developerakademie.net/ElPolloLoco-V2/index.html'
+      'address': 'https://elpolloloco.web.app/'
     },
     {
       'name': 'Join',
