@@ -16,9 +16,9 @@ export class PortfolioComponent implements OnInit {
       'address': 'https://elpolloloco.web.app/'
     },
     {
-      'name': 'Join',
-      'img': 'join.png',
-      'description': 'simple Kanban-Board (Group Project)',
+      'name': 'KanbanBoard',
+      'img': 'KanbanBoard.png',
+      'description': 'simple Kanban-Board for my Tasks',
       'engine': 'Java Script',
       'address': 'https://kanbanboard-john.web.app/'
     },
@@ -47,7 +47,7 @@ export class PortfolioComponent implements OnInit {
       'name': 'Taxi4Berlin.de',
       'img': 'website-serkan.png',
       'description': 'A website for Serkan Demir',
-      'engine': 'Angular',
+      'engine': 'Java Script',
       'address': 'https://taxi4berlin.de'
     },
   ];
