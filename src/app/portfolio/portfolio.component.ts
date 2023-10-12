@@ -31,7 +31,7 @@ export class PortfolioComponent implements OnInit {
     },
     {
       'name': 'Website',
-      'img': 'website.png',
+      'img': 'meine-webseite.png',
       'description': 'My Homepage',
       'engine': 'Angular',
       'address': 'https://john-fieweger.web.app'
@@ -42,6 +42,13 @@ export class PortfolioComponent implements OnInit {
       'description': 'A little card drinking game',
       'engine': 'Angular',
       'address': 'https://ring-of-fire-6724b.web.app'
+    },
+    {
+      'name': 'Taxi4Berlin.de',
+      'img': 'website-serkan.png',
+      'description': 'A website for Serkan Demir',
+      'engine': 'Angular',
+      'address': 'https://taxi4berlin.de'
     },
   ];
   filterInActive = true;
