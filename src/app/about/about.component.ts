@@ -9,22 +9,22 @@ export class AboutComponent implements OnInit {
 journey = [
   {
     'title': 'BEGINNING OF MY JOURNEY',
-    'description': 'I began an apprenticeship as a process mechanic for plastics and rubber technology.',
+    'description': 'Started as a frontend web developer, fell in love with HTML, CSS, and JavaScript – the basics that sparked my coding passion.',
     'img': 'walk-line.png'
   },
   {
     'title': 'FIRST EXPERIENCES',
-    'description': 'This training gave me my first experience with programming. IT inspired me to deal more with the topic.',
+    'description': 'Worked in various roles, learned numerous programming languages – a journey that shaped my adaptability and expertise.',
     'img': 'heart-line.png'
   },
   {
     'title': 'DISCOVERY',
-    'description': 'In my career as a soldier I was in several positions where I had experienced a lot with IT. That is when I decided to become an active programmer.',
+    'description': 'Programmed websites, apps, and games for fun, realized I want to bring this joy to clients too.',
     'img': 'search-line.png'
   },
   {
     'title': 'NEW CHALLENGES',
-    'description': 'Now I love programming and will face any challenge that get in my way.',
+    'description': 'Ready for more! Expanding my skills to create websites, apps, and games that break new ground.',
     'img': 'flight-takeoff-line.png'
   }
 ]

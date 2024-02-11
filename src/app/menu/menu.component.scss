@@ -9,7 +9,7 @@ header {
     align-items: center;
     justify-content: space-between;
     // padding: 0 10rem 0 10rem;
-    background: black;
+    background: RGB(139, 133, 137);
     a {
         color: white;
         text-decoration: none;
@@ -17,7 +17,7 @@ header {
         font-weight: 500;
         font-size: 1.5rem;
         &:hover {
-            color: #fa2759;
+            color: RGB(255, 218, 185);
         }
     }
     img {
@@ -58,15 +58,15 @@ header {
 
 .mat-menu-item {
     color: white;
-    background-color: black;
+    background-color: RGB(139, 133, 137);
     text-decoration: none;
     font-weight: 500;
     font-size: 1.5rem;
     &:hover {
-        color: #fa2759;
+        color: RGB(255, 218, 185);
     }
 }
 
 ::ng-deep .custom-menu {
-    background-color: black!important;
+    background-color: RGB(139, 133, 137) !important;
 }

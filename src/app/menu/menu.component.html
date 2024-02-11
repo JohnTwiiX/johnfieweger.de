@@ -5,16 +5,18 @@
     <img [class.d-unset]="router.url == '/imprint' || router.url == '/data-protection'" src="assets/img/logo2.png">
     <div [class.darkLinks]="router.url == '/data-protection' || router.url == '/imprint'">
         <!-- -->
-        <button class="btn-menu" [class.btnDark]="router.url != '/imprint' && router.url != '/data-protection'" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <button class="btn-menu" [class.btnDark]="router.url != '/imprint' && router.url != '/data-protection'"
+            mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
             <mat-icon>menu</mat-icon>
         </button>
-        <mat-menu [class.menu-white]="router.url == '/imprint' || router.url == '/data-protection'" #menu="matMenu" class="custom-menu">
-            <a mat-menu-item routerLink="/">HOME</a>
+        <mat-menu [class.menu-white]="router.url == '/imprint' || router.url == '/data-protection'" #menu="matMenu"
+            class="custom-menu">
+            <a mat-menu-item href="#home">HOME</a>
             <a mat-menu-item href="#skills">SKILLS</a>
             <a mat-menu-item href="#portfolio">PORTFOLIO</a>
             <a mat-menu-item href="#about">ABOUT</a>
         </mat-menu>
-        <a routerLink="/">HOME</a>
+        <a href="#home">HOME</a>
         <a href="#skills">SKILLS</a>
         <a href="#portfolio">PORTFOLIO</a>
         <a href="#about">ABOUT</a>

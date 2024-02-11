@@ -6,27 +6,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-  public buttons = ['All', 'Java Script', 'Angular'];
+  public buttons = ['All', 'JavaScript', 'Angular'];
   public portfolio = [
     {
       'name': 'El Pollo Loco',
       'img': 'elpolloloco.png',
       'description': 'based jump and run game (OOP)',
-      'engine': 'Java Script',
+      'engine': 'JavaScript',
       'address': 'https://elpolloloco.web.app/'
     },
     {
       'name': 'KanbanBoard',
       'img': 'KanbanBoard.png',
       'description': 'simple Kanban-Board for my Tasks',
-      'engine': 'Java Script',
+      'engine': 'JavaScript',
       'address': 'https://kanbanboard-john.web.app/'
     },
     {
       'name': 'Pokedex',
       'img': 'pokedex.jpg',
       'description': 'A Pokedex with some Pokemon`s',
-      'engine': 'Java Script',
+      'engine': 'JavaScript',
       'address': 'http://john-fieweger.developerakademie.net/pokedex/pokedex.html'
     },
     {
@@ -47,7 +47,7 @@ export class PortfolioComponent implements OnInit {
       'name': 'Taxi4Berlin.de',
       'img': 'website-serkan.png',
       'description': 'A website for Serkan Demir',
-      'engine': 'Java Script',
+      'engine': 'JavaScript',
       'address': 'https://taxi4berlin.de'
     },
   ];

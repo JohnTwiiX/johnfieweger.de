@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'PT Sans';
+    font-family: "PT Sans";
     // background: black;
     box-sizing: border-box;
 }
@@ -61,7 +61,7 @@ html {
             display: none !important;
         }
     }
-    .header {
+    .main {
         flex-direction: column-reverse !important;
     }
     .img-container {
@@ -81,7 +81,7 @@ html {
         }
     }
     .about-container {
-        padding-top: 3rem !important;
+        padding-top: 5rem !important;
         padding-bottom: 2rem !important;
     }
     .profile {
@@ -102,8 +102,11 @@ html {
         align-items: center !important;
         flex-direction: column !important;
     }
-    .contact-container form {
-        height: 42rem !important;
+    .contact-container {
+        padding-top: 46px;
+        form {
+            height: 42rem !important;
+        }
     }
     .footer-container {
         height: 6rem !important;
@@ -124,10 +127,10 @@ html {
         }
     }
     .home-container {
-        padding-top: 8rem !important;
+        padding-top: 6rem !important;
     }
     .start-container {
-        height: calc(100vh - 8rem) !important;
+        height: calc(100vh - 6rem) !important;
     }
     .padding-lr {
         padding-left: 0.8rem !important;

@@ -4,11 +4,11 @@
     flex-wrap: wrap;
     // padding: 0 13rem 3rem 13rem;
     padding-bottom: 3rem;
-    background: black;
+    background-color: rgb(247, 243, 233);
 }
 
 .btn-container {
-    background-color: black;
+    background-color: rgb(247, 243, 233);
     display: flex;
     justify-content: center;
     padding: 16px;
@@ -17,11 +17,11 @@
         width: 9rem;
         height: 3rem;
         background: transparent;
-        color: #fa2759;
-        border: 2px solid #fa2759;
+        color: RGB(139, 133, 137);
+        border: 2px solid RGB(139, 133, 137);
         cursor: pointer;
         &:hover {
-            background: #fa2759;
+            background: RGB(139, 133, 137);
             color: black;
         }
     }
@@ -29,12 +29,12 @@
 
 .portfolio-container {
     h2 {
-        color: white;
+        color: black;
         text-align: center;
         font-size: 2.5rem;
-        background: black;
+        background-color: rgb(247, 243, 233);
         margin: 0;
-        padding: 2rem;
+        padding: 5rem 2rem 2rem 2rem;
     }
 }
 
@@ -60,7 +60,7 @@
             font-size: 50px;
             margin-top: 3rem;
             margin-bottom: 1rem;
-            color: #fa2759;
+            color: RGB(139, 133, 137);
         }
         p {
             font-size: 18px;
@@ -70,12 +70,12 @@
             height: 4rem;
             width: 14rem;
             background: white;
-            border: 2px solid #fa2759;
-            color: #fa2759;
+            border: 2px solid RGB(139, 133, 137);
+            color: RGB(139, 133, 137);
             font-size: 1rem;
             cursor: pointer;
             &:hover {
-                background: #fa2759;
+                background: RGB(139, 133, 137);
                 color: black;
             }
         }
@@ -86,6 +86,6 @@
 }
 
 .activeBtn {
-    background: #fa2759 !important;
+    background: RGB(139, 133, 137) !important;
     color: black !important;
 }

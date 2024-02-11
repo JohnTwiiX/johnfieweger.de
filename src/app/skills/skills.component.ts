@@ -12,41 +12,57 @@ skillImg = ['', '', '', '', '', '', '', '', ''];
 
 skill= [
   {
-    'name': 'Java Script',
-    'img': 'java script',
+    'name': 'JavaScript',
+    'img': 'javascript',
     'animation': 'data-aos="fade-right"'
+  },
+  {
+    'name': 'HTML',
+    'img': 'html'
+  },
+  {
+    'name': 'CSS',
+    'img': 'css'
+  },
+  {
+    'name': 'SCSS',
+    'img': 'scss'
   },
   {
     'name': 'Angular',
     'img': 'angular'
   },
   {
-    'name': 'HTML / CSS',
-    'img': 'Group 205'
+    'name': 'React / -Native',
+    'img': 'react-reactnative'
   },
   {
     'name': 'SCRUM',
-    'img': 'Group 226'
+    'img': 'scrum'
   },
   {
     'name': 'Git',
-    'img': 'Git-Icon-1788C 2'
+    'img': 'git'
   },
   {
     'name': 'Design Thinking',
-    'img': 'Group 20'
+    'img': 'thinking'
   },
   {
     'name': 'Rest API',
-    'img': 'icons8-rest-api-80 2'
+    'img': 'restapi'
+  },
+  {
+    'name': 'Firebase',
+    'img': 'firebase'
   },
   {
     'name': 'Test Automation',
-    'img': 'icons8-test-lab-96 2'
+    'img': 'test'
   },
   {
     'name': 'Databases',
-    'img': 'icons8-database-52 2'
+    'img': 'database'
   }
 ]
 

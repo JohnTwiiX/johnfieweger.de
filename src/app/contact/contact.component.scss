@@ -1,6 +1,6 @@
 .contact-container {
-    background: black;
-    color: white;
+    background-color: rgb(247, 243, 233);
+    // color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,14 +13,11 @@
         width: 36rem;
         height: 37rem;
         h2 {
-            color: #2dfcd8;
+            color: RGB(139, 133, 137);
             font-size: 3rem;
         }
-        p {
-            color: rgb(255 255 255 / 66%);
-        }
         #email {
-            color: #2dfcd8;
+            color: RGB(139, 133, 137);
         }
         span {
             margin: 1rem 0 1rem 0;
@@ -51,11 +48,11 @@
             width: 9rem;
             height: 3rem;
             background: transparent;
-            color: #2dfcd8;
-            border: 2px solid #2dfcd8;
+            color: RGB(139, 133, 137);
+            border: 2px solid RGB(139, 133, 137);
             cursor: pointer;
             &:hover {
-                background-color: #2dfcd8;
+                background-color: RGB(139, 133, 137);
                 color: black;
             }
         }

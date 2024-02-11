@@ -6,3 +6,9 @@
     border-bottom: 2px solid grey;
     word-break: break-all;
 }
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
