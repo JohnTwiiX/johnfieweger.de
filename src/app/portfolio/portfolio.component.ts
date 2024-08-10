@@ -6,49 +6,56 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-  public buttons = ['All', 'JavaScript', 'Angular'];
+  public buttons = ['All', 'JavaScript', 'Angular', 'Django', 'Cloud'];
   public portfolio = [
     {
       'name': 'El Pollo Loco',
       'img': 'elpolloloco.png',
       'description': 'based jump and run game (OOP)',
       'engine': 'JavaScript',
-      'address': 'https://elpolloloco.web.app/'
+      'address': 'https://elpollo.johnfieweger.de/'
     },
     {
       'name': 'KanbanBoard',
       'img': 'KanbanBoard.png',
       'description': 'simple Kanban-Board for my Tasks',
-      'engine': 'JavaScript',
-      'address': 'https://kanbanboard-john.web.app/'
+      'engine': 'Angular Cloud',
+      'address': 'https://kanban.johnfieweger.de/'
     },
+    // {
+    //   'name': 'Pokedex',
+    //   'img': 'pokedex.jpg',
+    //   'description': 'A Pokedex with some Pokemon`s',
+    //   'engine': 'JavaScript',
+    //   'address': 'http://john-fieweger.developerakademie.net/pokedex/pokedex.html'
+    // },
     {
-      'name': 'Pokedex',
-      'img': 'pokedex.jpg',
-      'description': 'A Pokedex with some Pokemon`s',
-      'engine': 'JavaScript',
-      'address': 'http://john-fieweger.developerakademie.net/pokedex/pokedex.html'
+      'name': 'Videoflix',
+      'img': 'videoflix.png',
+      'description': 'My Netflix Clone',
+      'engine': 'Angular Django',
+      'address': 'https://videoflix.johnfieweger.de/'
     },
     {
       'name': 'Website',
       'img': 'meine-webseite.png',
       'description': 'My Homepage',
       'engine': 'Angular',
-      'address': 'https://john-fieweger.web.app'
+      'address': 'https://johnfieweger.de/'
     },
     {
       'name': 'Ring of Fire',
       'img': 'cards.jpg',
       'description': 'A little card drinking game',
-      'engine': 'Angular',
-      'address': 'https://ring-of-fire-6724b.web.app'
+      'engine': 'Angular Cloud',
+      'address': 'https://ring.johnfieweger.de/'
     },
     {
       'name': 'Taxi4Berlin.de',
       'img': 'website-serkan.png',
       'description': 'A website for Serkan Demir',
       'engine': 'JavaScript',
-      'address': 'https://taxi4berlin.de'
+      'address': 'https://taxi4berlin.de/'
     },
   ];
   filterInActive = true;

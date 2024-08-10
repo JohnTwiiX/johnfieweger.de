@@ -1,12 +1,14 @@
 <div id="portfolio" class="portfolio-container">
     <h2>My Work</h2>
     <div class="btn-container">
-        <button [class.activeBtn]="btn == currentName" (click)="active(btn)" id="{{ btn }}" *ngFor="let btn of buttons">{{ btn }}</button>
+        <button [class.activeBtn]="btn == currentName" (click)="active(btn)" id="{{ btn }}"
+            *ngFor="let btn of buttons">{{ btn }}</button>
     </div>
     <div class="work-box padding-lr">
         <div *ngFor="let portfolio of portfolio; let i = index">
             <!-- If filter inactive, show all projectes -->
-            <div *ngIf="filterInActive" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" class="img-container">
+            <div *ngIf="filterInActive" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000" class="img-container">
                 <div>
                     <h3>{{ portfolio.name }}</h3> <br>
                     <p>{{ portfolio.engine }} - {{ portfolio.description }}</p>
@@ -17,7 +19,8 @@
                 <img src="assets/img/{{ portfolio.img }}">
             </div>
             <!-- If filter active, show all filtered projectes -->
-            <div *ngIf="portfolio.engine == currentName" data-aos="zoom-in-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" class="img-container">
+            <div *ngIf="portfolio.engine.includes(currentName)" data-aos="zoom-in-up"
+                data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" class="img-container">
                 <div>
                     <h3>{{ portfolio.name }}</h3> <br>
                     <p>{{ portfolio.engine }} - {{ portfolio.description }}</p>

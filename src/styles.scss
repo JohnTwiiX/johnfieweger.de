@@ -30,23 +30,28 @@ html {
         padding-left: 2rem !important;
         padding-right: 2rem !important;
     }
+
     .home-container {
         font-size: 2rem !important;
     }
+
     .start-container {
         img {
             height: 15rem !important;
             width: 15rem !important;
         }
     }
+
     header {
         a {
             margin-left: 1rem !important;
         }
     }
+
     .skills {
         width: 90vw !important;
     }
+
     .contact-container form {
         width: 13rem !important;
     }
@@ -56,133 +61,176 @@ html {
     .btn-menu {
         display: unset !important;
     }
+
     header {
         a {
             display: none !important;
         }
     }
+
     .main {
         flex-direction: column-reverse !important;
     }
+
     .img-container {
         height: 10rem !important;
         width: 16rem !important;
+
         h3 {
             font-size: 24px !important;
             margin-top: 1rem !important;
             margin-bottom: 0 !important;
         }
+
         p {
             margin: 0 !important;
         }
+
         button {
             height: 1.5rem !important;
             width: 7rem !important;
         }
     }
+
     .about-container {
         padding-top: 5rem !important;
         padding-bottom: 2rem !important;
     }
+
     .profile {
         flex-direction: column !important;
         padding-bottom: 1rem !important;
         margin: 0 !important;
+
         img {
             margin-bottom: 1rem !important;
             margin-right: 0 !important;
             height: 10rem !important;
             width: 10rem !important;
         }
+
         span {
             font-size: 2.2rem !important;
         }
     }
+
     .journey-container {
         align-items: center !important;
         flex-direction: column !important;
     }
+
     .contact-container {
         padding-top: 46px;
+
         form {
             height: 42rem !important;
         }
     }
+
     .footer-container {
         height: 6rem !important;
     }
+
     .links {
         flex-direction: column !important;
         display: flex !important;
+
         a {
             margin-bottom: 1rem !important;
         }
     }
+
     .icons {
         display: flex !important;
         flex-direction: column !important;
+
         img {
             margin-left: 0 !important;
             height: 40px !important;
         }
     }
+
     .home-container {
         padding-top: 6rem !important;
     }
+
     .start-container {
         height: calc(100vh - 6rem) !important;
     }
+
     .padding-lr {
         padding-left: 0.8rem !important;
         padding-right: 0.8rem !important;
     }
+
     .home-container {
         font-size: 2.8rem !important;
     }
+
     .data-container {
         padding-top: 6rem !important;
+
         h1 {
             font-size: 1.5rem !important;
         }
+
         h2 {
             font-size: 1.2rem !important;
         }
+
         h2 {
             font-size: 1rem !important;
         }
+
         h3 {
             font-size: 0.8rem !important;
         }
+
         p,
         ul {
             font-size: 0.6rem !important;
         }
     }
+
     .imprint-container {
         padding-top: 6rem !important;
+
         h1 {
             font-size: 1.5rem !important;
         }
+
         h2 {
             font-size: 1.2rem !important;
         }
+
         h2 {
             font-size: 1rem !important;
         }
+
         p {
             font-size: 0.8rem !important;
         }
     }
+
     .arrow-wrap {
         margin-top: 5rem !important;
     }
+
     .header-box {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .btn-contact {
         margin-top: 3rem !important;
+    }
+}
+
+@media (max-width:350px) {
+    .btn-container {
+        gap: 8px;
+        flex-wrap: wrap;
     }
 }
 
