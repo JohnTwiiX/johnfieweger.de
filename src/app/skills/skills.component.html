@@ -2,14 +2,16 @@
     <div>
         <h2>My Skills</h2>
         <div class="skills">
-            <div *ngFor="let skill of skill" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom"
-                data-aos-duration="1000" class="skill-box">
+            @for (skill of skill; track $index) {
+            <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000"
+                class="skill-box">
                 <div class="img-bg">
-                    <img src="assets/img/skills/{{ skill.img }}.png">
+                    <img src="../../assets/img/skills/{{ skill.img }}.png">
                 </div>
 
                 <span>{{ skill.name }}</span>
             </div>
+            }
         </div>
     </div>
 </div>

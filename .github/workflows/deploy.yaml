@@ -1,0 +1,43 @@
+name: Deploy to GitHub Pages
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    name: Build ${{github.event.repository.name}}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install --frozen-lockfile
+
+      - name: Build website
+        run: npm run build && cp -r dist github-pages
+
+      - name: Upload Build Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: github-pages
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    if: ${{  github.event_name  != 'pull_request' }}
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

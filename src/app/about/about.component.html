@@ -1,21 +1,24 @@
 <div id="about" class="about-container padding-lr">
     <div>
         <div class="profile">
-            <img src="assets/img/profile3.jpg">
+            <img src="../../assets/img/profile3.jpg">
             <div>
                 <span>About me</span>
                 <p>"I'm a sport and car-tuning enthusiast and a fullstack developer who love programming"</p>
             </div>
         </div>
         <div class="journey-container">
-            <div *ngFor="let journey of journey" class="journey" data-aos="flip-down"
-                data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
+            @for (journey of journey; track $index) {
+            <div class="journey" data-aos="flip-down" data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="1000">
                 <div>
-                    <img src="assets/img/Portfolio developer Akademie - Portfolio/{{ journey.img }}">
+                    <img src="../../assets/img/Portfolio developer Akademie - Portfolio/{{ journey.img }}">
                 </div>
                 <span>{{ journey.title }}</span>
                 <P>{{ journey.description }}</P>
             </div>
+            }
+
         </div>
     </div>
 
