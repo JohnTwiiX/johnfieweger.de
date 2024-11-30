@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    name: Build Docusaurus
+    name: Build ${{github.event.repository.name}}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
