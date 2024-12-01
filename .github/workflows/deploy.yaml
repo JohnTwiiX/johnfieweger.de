@@ -19,7 +19,7 @@ jobs:
         run: npm install --frozen-lockfile
 
       - name: Build website
-        run: npm run build && cp -r dist github-pages
+        run: npm run build && cp -r dist/portfolio/browser github-pages
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
